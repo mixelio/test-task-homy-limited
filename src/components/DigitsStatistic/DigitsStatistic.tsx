@@ -22,7 +22,6 @@ export const DigitsStatistic = () => {
 
   const inputRef = useRef<HTMLInputElement>(null); // get the input element
 
-  
   const handleInputChange = debounce((event: ChangeEvent<HTMLInputElement>) => {
     console.log(event.target.value);
     setDigit(Number(event.target.value));

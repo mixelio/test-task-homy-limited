@@ -1,0 +1,55 @@
+.digitsStatistic {
+  width: 300px;
+  padding: 12px;
+  min-height: 100px;
+  border: 1px solid #ccc;
+}
+
+.managingContainer {
+  display: flex;
+  gap: 10px;
+  margin-block-end: 12px;
+}
+
+.digitInput {
+  flex: 1;
+  height: 100%;
+  border-radius: 0;
+}
+
+.addDigitButton {
+  outline: none;
+  border-radius: 0;
+  flex: 1;
+}
+
+.infoContainer {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.digits {
+  flex: 0 0 50%;
+}
+
+.calculationContainer {
+  width: 100%;
+}
+
+.calculationValue {
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+
+  span {
+    flex: 1;
+    &:first-child {
+      text-align: left;
+    }
+    &:last-child {
+      text-align: right;
+    }
+  }
+}
+
